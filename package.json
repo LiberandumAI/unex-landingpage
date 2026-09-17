@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "i18n": "node scripts/i18n.mjs",
+    "predev": "npm run i18n",
+    "prebuild": "npm run i18n",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -11,6 +14,7 @@
   "devDependencies": {
     "@gltf-transform/cli": "^4.5.0",
     "@types/three": "^0.186.0",
+    "node-html-parser": "^9.0.4",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   },

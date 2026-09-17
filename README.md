@@ -6,6 +6,12 @@ choreographed by scroll. Sections are tall wrappers with a pinned 100vh panel (t
 technique): the coin holds while a panel is pinned and moves in the gap between panels. Design tokens adapted from the ORYZO style reference
 (warm walnut / cream / one accent), accent switched to UNEX brand red.
 
+## Languages
+
+Russian is the source page (`index.html`). `scripts/i18n.mjs` generates `/uz/` and `/en/` from it
+using `i18n/uz.json` and `i18n/en.json` (keys are the exact Russian strings). It runs automatically
+before `dev` and `build`; edit the JSON files and rebuild. Untranslated strings are listed in the log.
+
 ## Run
 
 ```bash
