@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="18" fill="#100904"/>
-  <rect x="14" y="14" width="72" height="72" fill="none" stroke="#e30613" stroke-width="8"/>
-  <path d="M50 28 L69 39 L69 61 L50 72 L31 61 L31 39 Z" fill="none" stroke="#e30613" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M50 28 L50 50 L69 39 M50 50 L31 39 M50 50 L50 72" fill="none" stroke="#e30613" stroke-width="6" stroke-linejoin="round"/>
+  <rect width="100" height="100" rx="20" fill="#140b06"/>
+  <!-- the X of the UNEX wordmark (docs/logo-title.svg), scaled to fit -->
+  <g transform="translate(-178.7 14) scale(0.361)">
+    <path d="M590 27H544L608 103L544 184H590L655 103L590 27Z" fill="#E2011A"/>
+    <path d="M665 114.5L641 142.5L682.5 192L681.5 193H670V194L675.5 199L722 199.5V156L709.5 167.5L665 114.5Z" fill="#f6e6cf"/>
+    <path d="M666 90.5L642 62.5L684.5 10.5L682 8H670V6.5L676.5 0H723V49L710.5 37.5L666 90.5Z" fill="#E2011A"/>
+  </g>
 </svg>
