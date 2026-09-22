@@ -1216,6 +1216,10 @@ main {
     font-size: 18px;
     text-transform: none;
   }
+  .menu__social {
+    font-size: 12px;
+    color: var(--cream-60);
+  }
 
   /* ---- sticky CTA ---- */
   .mcta {
